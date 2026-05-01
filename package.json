@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "type": "module",
+  "scripts": {
+    "build-index": "node .github/scripts/build-index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
