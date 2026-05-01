@@ -1,0 +1,14 @@
+title: "My First Post"
+slug: my-first-post
+description: "A short excerpt for SEO and cards"
+published_at: 2026-04-30
+updated_at: 2026-05-01
+status: published          # draft | published | archived
+category: engineering
+tags: [react, performance]
+author: john
+featured: false
+cover_image: assets/hero.jpg
+seo:
+  og_image: assets/hero.jpg
+  canonical_url:            # optional override
