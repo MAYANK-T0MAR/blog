@@ -1,0 +1,20 @@
+on:
+  push:
+    paths:
+      - "posts/*/meta.yml"   # only runs when a meta.yml changes
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild index.json
+        run: node scripts/build-index.js
+
+      - name: Commit updated index
+        run: |
+          git config user.name "github-actions"
+          git add index.json
+          git commit -m "chore: update index.json" || exit 0
+          git push
