@@ -1,16 +1,18 @@
 on:
   push:
     paths:
-      - "posts/*/meta.yml"   # only runs when a meta.yml changes
-
+      - "posts/*/meta.yml"
 jobs:
   update-index:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Rebuild index.json
-        run: node scripts/build-index.js
+        run: npm run build-index
 
       - name: Commit updated index
         run: |
