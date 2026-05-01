@@ -1,1 +1,17 @@
-
+[
+  {
+    "slug": "my-first-post",
+    "title": "My First Post",
+    "description": "A short excerpt for SEO and cards",
+    "published_at": "2026-04-30T00:00:00.000Z",
+    "category": "engineering",
+    "tags": [
+      "react",
+      "performance"
+    ],
+    "status": "published",
+    "cover_image": "assets/hero.jpg",
+    "author": "john",
+    "featured": false
+  }
+]
