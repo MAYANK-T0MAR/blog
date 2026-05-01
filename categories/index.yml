@@ -1,0 +1,20 @@
+categories:
+  - slug: engineering
+    label: Engineering
+    description: "Technical deep dives, architecture decisions, and code walkthroughs"
+
+  - slug: design
+    label: Design
+    description: "UI/UX thinking, design systems, and visual communication"
+
+  - slug: product
+    label: Product
+    description: "Product decisions, roadmaps, and lessons from building"
+
+  - slug: tutorial
+    label: Tutorial
+    description: "Step-by-step guides you can follow along with"
+
+  - slug: thoughts
+    label: Thoughts
+    description: "Opinions, reflections, and things worth thinking about"
