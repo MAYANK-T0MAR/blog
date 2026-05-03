@@ -6,7 +6,7 @@ updated_at: 2026-05-01
 status: published          # draft | published | archived
 category: engineering
 tags: [react, performance]
-author: john
+author: Mayank
 featured: false
 cover_image: assets/hero.jpg
 seo:
