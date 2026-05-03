@@ -20,3 +20,7 @@ jobs:
           git add index.json
           git commit -m "chore: update index.json" || exit 0
           git push
+
+      - name: Purge jsDelivr cache
+        run: |
+          curl -X GET "https://purge.jsdelivr.net/gh/MAYANK-T0MAR/blog@main/index.json"
