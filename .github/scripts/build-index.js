@@ -32,7 +32,7 @@ const index = fs.readdirSync(postsDir)
         return {
             ...Object.fromEntries(fields.map(f => [f, meta[f]])),
             slug: folder,
-            cover: coverFile ? `https://cdn.jsdelivr.net/gh/${GITHUB_REPO}@main/posts/${folder}/assets/${coverFile}` : null,
+            cover_image: coverFile ? `https://cdn.jsdelivr.net/gh/${GITHUB_REPO}@main/posts/${folder}/assets/${coverFile}` : null,
             read_time: calcReadTime(mdx)
         }
     })
