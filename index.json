@@ -30,5 +30,23 @@
     "slug": "be-dumb",
     "cover_image": "https://cdn.jsdelivr.net/gh/MAYANK-T0MAR/blog@main/posts/be-dumb/assets/cover.webp",
     "read_time": 5
+  },
+  {
+    "title": "The Quiet Revolution of Slow Software",
+    "description": "In an era obsessed with speed, a growing movement of developers is deliberately building software that does less — and why that might be exactly what we need.",
+    "published_at": "2025-11-14",
+    "category": "tech",
+    "tags": [
+      "software",
+      "design philosophy",
+      "minimalism",
+      "developer culture"
+    ],
+    "status": "published",
+    "author": "Mayank",
+    "featured": false,
+    "slug": "the-quiet-revolution-of-slow-software",
+    "cover_image": null,
+    "read_time": 0
   }
 ]
