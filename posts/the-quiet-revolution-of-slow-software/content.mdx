@@ -1,0 +1,152 @@
+There is a text editor I use sometimes called [Untitled](https://untitled.app). It has no tabs, no file tree, no themes, no plugins. It opens to a blank white page with a blinking cursor. That is the entire product.
+
+I have not used it to write anything important. But every time I open it, something in my chest unclenches.
+
+---
+
+## The Speed Trap
+
+For most of software's short history, faster has been synonymous with better. Faster page loads, faster deployments, faster feedback loops, faster iterations. Entire engineering disciplines — performance optimization, CDN architecture, edge computing — exist in service of shaving milliseconds from the time between a user's intent and the software's response.
+
+This is, largely, good. Nobody wants to wait. But somewhere along the way, we extended the same logic to *features*, and that's where things started to fray.
+
+The average smartphone app now ships weekly updates. Modern IDEs come pre-loaded with dozens of features most developers will never discover. Project management tools have evolved from a list of tasks into sprawling platforms with roadmaps, automations, AI assistants, and integrations with everything else you already use.
+
+We built software that could do more. And then we kept going.
+
+> "Complexity is the enemy of reliability. And yet we keep reaching for it, because complexity *feels* like progress." — Pieter Levels
+
+---
+
+## What Slow Software Actually Means
+
+"Slow software" is not a formal movement. There's no manifesto, no conference, no nonprofit. It's more of a sensibility — a loose collection of builders and thinkers who have grown skeptical of the feature-maximalist approach, and who are quietly building something different.
+
+It doesn't necessarily mean software that runs slowly (though some practitioners are relaxed about performance, too). It means software that:
+
+- **Does one thing** and accepts that trade-off completely
+- **Resists the urge to expand** its surface area over time
+- **Respects the user's attention** as a finite and valuable resource
+- **Makes deliberate choices** about what *not* to include
+
+The best analogy is the slow food movement. Slow food wasn't about food that takes forever to eat. It was a reaction to industrialized convenience — a return to intentionality, craft, and the idea that the process of making and consuming food was worth thinking about carefully.
+
+Slow software is asking the same question about the tools we use to think, create, and communicate.
+
+---
+
+## The Economics of Adding Features
+
+Why do software products bloat? It's not because product managers are malicious or lazy. The incentives are structural.
+
+In a competitive market, features are cheap to announce and easy to compare. A SaaS company can list 47 features on its landing page. A more focused competitor with 12 features has to work much harder to explain why that's *actually better*.
+
+Enterprise buyers often evaluate software by checking feature checkboxes against a requirements list. If your product is missing a checkbox — even a checkbox for a feature the buyer will use twice a year — it might be eliminated from consideration before anyone ever opens it.
+
+And internally, teams are measured on output. Shipping features is visible. Removing them — or declining to build them — is nearly invisible.
+
+So features accumulate, not because anyone decided they should, but because no one had the organizational power to stop them. It's entropy, applied to product design.
+
+The paradox of choice, first described by psychologist Barry Schwartz, applies directly here. More options don't make users more satisfied — they make decisions harder, increase regret, and often lead to worse outcomes. Software with 200 features doesn't empower users. It overwhelms them.
+
+---
+
+## People Who Are Doing It Differently
+
+A handful of companies and solo builders have made constraint a core part of their identity. They're worth looking at closely.
+
+### iA Writer
+
+iA Writer is a writing app that has been around since 2010. In that time, it has added *some* features — a focus mode, syntax highlighting for different parts of speech, library support for organizing documents. But the essential product remains: a clean writing surface, Markdown support, and very little else.
+
+What's striking is what iA Writer has *refused* to do. No real-time collaboration. No comments. No plugins ecosystem. No web clipper, no AI autocomplete, no integration with your task manager.
+
+The company publishes a design philosophy document that includes this line: *"We try to find the simplest solution that still works elegantly. This is harder than it sounds."*
+
+It is harder than it sounds. Restraint requires more confidence than expansion.
+
+### Basecamp
+
+Basecamp, the project management software from 37signals, has famously resisted the feature creep that swallowed many of its competitors. The company has rebuilt the product from scratch twice — not to add capabilities, but to re-examine which capabilities were actually worth keeping.
+
+Their founders, Jason Fried and David Heinemeier Hansson, have written extensively about this. In *It Doesn't Have to Be Crazy at Work*, they describe a philosophy of "enough" — enough features, enough growth, enough complexity. This is a radical position in an industry that measures success in terms of ARR growth curves and hockey sticks.
+
+### Tot
+
+Tot is an app from Iconfactory that gives you exactly seven dots — seven small text fields for capturing scraps of text throughout your day. That's the whole app. No search. No tags. No organization beyond the seven dots.
+
+It is absurd by conventional product logic. And it has a devoted following.
+
+---
+
+## What Developers Can Learn from Craftspeople
+
+There's a woodworker I follow online who makes furniture with hand tools. Not because power tools are bad, but because slowing down forces him to pay attention to the wood in a way that routers and planers don't.
+
+He talks about "listening to the grain." About feeling resistance in a hand plane and reading what it tells you about the density of the material beneath. None of that is possible at speed.
+
+Software development has almost nothing in common with woodworking, except this: the quality of attention you bring to the work shows up in the output.
+
+Fast, feature-driven development teaches developers to move before they've fully understood what they're building. Slow software asks: what problem are we *actually* solving? Who will use this? What will they feel when they use it? What should they *not* be able to do?
+
+Those aren't questions that yield answers quickly.
+
+---
+
+## The Attention Argument
+
+Here's the case for slow software that I find most persuasive: we are living through an attention crisis, and most software is making it worse.
+
+This isn't a hot take. The research on digital distraction, context-switching costs, and notification overload is robust and has been consistent for years. Every interruption — every badge, every modal, every "we noticed you haven't tried this feature" tooltip — costs cognitive resources that don't come back for free.
+
+Software that does one thing well asks for a specific kind of attention. It creates a container. You open the app, you do the thing, you close it. The relationship is clean.
+
+Feature-rich software creates a gravity well. There's always one more thing to configure, one more integration to set up, one more dashboard to check. The app becomes an ongoing project in itself, separate from the actual work it was supposed to support.
+
+This is not a coincidence. Engagement — time spent in the product — is often a KPI. Software is, frequently, designed to keep you inside it.
+
+Slow software opts out of that game. It is trying to give you back your time, not capture it.
+
+---
+
+## Objections Worth Taking Seriously
+
+I want to be fair about the counterarguments, because there are real ones.
+
+**"Real users need more features."** This is often true. A spreadsheet program for a financial analyst *should* have hundreds of functions. A professional video editor *needs* a complex timeline and color grading tools. Slow software is not universally correct — it's correct for specific contexts, usually ones involving creative work, thinking, and writing.
+
+**"Simplicity is a luxury."** Building simple software is expensive. iA Writer can afford to not add features because they've established a brand around restraint and charge accordingly. A bootstrapped startup competing against well-funded alternatives may not have the same latitude. This is a real constraint.
+
+**"Who decides what's essential?"** Removing features is an act of editorial power. Someone decides that collaboration is out of scope, that search isn't necessary, that your workflow should adapt to the tool rather than vice versa. That's not neutral. Users who need those features are simply excluded. Acknowledging this doesn't invalidate slow software, but it complicates the romance around it.
+
+---
+
+## A Different Metric
+
+If we're going to build — or advocate for — slow software, we need a different measure of success than feature count or monthly active users.
+
+I'd propose something like: *how much of the user's time does the product consume beyond the task it was designed to support?*
+
+A writing app that takes 20 minutes to write in and 40 minutes to fiddle with settings and themes is failing by this metric. A writing app that takes 20 minutes to write in and 0 minutes to do anything else is succeeding.
+
+This is not a metric any VC would fund around. But it might be one that the people who actually use software — the humans who spend their working hours inside these tools — would vote for, if given the choice.
+
+---
+
+## The Hourglass
+
+I come back to that text editor. The blank page.
+
+The reason it unclenches something in my chest is not because it's technically impressive, or because it has some clever UX innovation. It's because someone, somewhere, made a long series of decisions to *not build things*.
+
+That is genuinely hard. It requires conviction and the willingness to be misunderstood. It requires resisting every sensible business impulse that says more is more.
+
+And it produces something that feels, in its modest way, like a gift: a tool that trusts you to know what you're doing, and gets out of your way.
+
+That might not be a revolution. But it's quiet. And sometimes quiet is exactly what's needed.
+
+---
+
+*If you found this essay useful, you might also enjoy reading about [the principles behind calm technology](https://www.calmtech.com), Mark Weiser and John Seely Brown's foundational work on computing that doesn't demand your attention.*
+
+*Have thoughts? I'm [on Mastodon](https://hachyderm.io/@mayaokonkwo) and reply to every message.*
