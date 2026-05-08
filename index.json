@@ -39,14 +39,13 @@
     "tags": [
       "software",
       "design philosophy",
-      "minimalism",
       "developer culture"
     ],
     "status": "published",
     "author": "Mayank",
     "featured": false,
     "slug": "the-quiet-revolution-of-slow-software",
-    "cover_image": null,
+    "cover_image": "https://cdn.jsdelivr.net/gh/MAYANK-T0MAR/blog@main/posts/the-quiet-revolution-of-slow-software/assets/cover.jpg",
     "read_time": 8
   }
 ]
