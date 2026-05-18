@@ -1,21 +1,5 @@
 [
   {
-    "title": "My First Post",
-    "description": "A short excerpt for SEO and cards. Test Post it is, some words, some more and lassi mmmmmm",
-    "published_at": "2026-04-30T00:00:00.000Z",
-    "category": "engineering",
-    "tags": [
-      "react",
-      "performance"
-    ],
-    "status": "published",
-    "author": "Mayank",
-    "featured": false,
-    "slug": "my-first-post",
-    "cover_image": null,
-    "read_time": 0
-  },
-  {
     "title": "Be Dumb",
     "description": "World is ruled by movers not philosophers. Stop trying to over-analyze things more than what's necessary and start moving.",
     "published_at": "2026-04-22T00:00:00.000Z",
